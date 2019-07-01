@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- here i creat a form for label, input, and a button to add the player names -->
+    <form>
+        <label for="player#1">Player#1 Name</label>
+        <input id="nameOne" type="text" name="firstName">
+        <label for="player#2">Player#2 Name</label>
+        <input id="nameTwo" type="text" name="firstName">
+        <button id="add-players">Add players</button>
+        <!-- <input type="submit"> -->
+    </form>
+
+
+    <div class="game-container">
+        <div id="player1" class="palyer-name">
+            <h1 id="ph1">Player 1:</h1>
+        </div>
+        <!--here is my table and -->
+        <table id="tableID">
+            <tbody>
+            <tr>
+            
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        </table>
+        <div id="player2" class="player-name"></div>
+        <h1 id="ph2">player 2:</h1>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

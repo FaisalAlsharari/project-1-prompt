@@ -1,0 +1,33 @@
+html, body{
+    height: 100%;
+    background-color:lightgreen;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+td{
+    color: black;
+    padding: 60px;
+    border: 1px solid blue;
+    background-color:yellow;
+    height:24px ;
+    width: 24px;
+}
+
+.game-container{
+    display: flex;
+    justify-content: space-around;
+}
+.palyer-name,.player-name{
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px
+
+
+    
+}
