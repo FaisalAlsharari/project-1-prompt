@@ -101,7 +101,7 @@ function checkTie() {
 
 
     }
-    //This if is to check if the count git to 9 and the game is finished !
+    //This "if" is to check if the count git to 9 and the game is finished !
     if (count == 9 && game == true)
         swal(`Tie `);
 }
