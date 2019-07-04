@@ -45,14 +45,14 @@ let eventTable = function (event) {
         this.innerText = turn;
     //This is if it's X make it o, and if it's o make it x
     turn = turn === 'X' ? 'O' : 'X';
-    //here is my first arr into 3 arr
+    //here is my 2d arr
     let tableArray = [
         [],
         [],
         []
     ]
     console.log(tableArray);
-
+//this is row
     for (let i = 0; i < 3; i++) {
         for (let j = 0; j < 3; j++) {
             //tableArray[i][j] the 3 table arr , table.children[i] in the html the first tr , .children[j] the first td in the tr , .innerText; the value of inside the td this is the first loop of tr . 
@@ -60,13 +60,13 @@ let eventTable = function (event) {
         }
     }
 
-
+//this is colom
     for (let i = 0; i < tableArray.length; i++) {
         checkWin(tableArray[i][0], tableArray[i][1], tableArray[i][2])
         checkWin(tableArray[0][i], tableArray[1][i], tableArray[2][i])
 
     }
-
+//this is diagonal 
     checkWin(tableArray[0][0], tableArray[1][1], tableArray[2][2])
     checkWin(tableArray[0][2], tableArray[1][1], tableArray[2][0])
     checkTie()
@@ -83,11 +83,13 @@ let table = document.querySelector('#tableID>tbody');
 function checkWin(a, b, c) {
     if (a == b && b == c && a != `` && b != `` && c != ``) {
         // console.log(player2);
+
+        //This will make the game stop after someone won
         game = false;
         swal(`Winner Winner Chicken Dinner`, a == "X" ? player1.innerText : player2.innerText);
     }
 }
-//Here we check if no one is winning !
+//Here we check if it's Tie !
 function checkTie() {
     let count = 0;
     for (let i = 0; i < tableTd.length; i++) {

@@ -1,5 +1,5 @@
 html, body{
-    height: 100%;
+    height: 70%;
     
 }
 
@@ -61,7 +61,7 @@ background-color: rgb(71, 75, 114)
 
 #nameTwo, #nameOne{
     /* margin: 10%; */
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 #player1{
     color:rgb(122, 241, 11);
