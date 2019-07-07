@@ -1,12 +1,10 @@
-html{
-    text-align: center;
-    display: flex;
-    flex-direction: flex;
-    justify-content: center;
+html, body{
+    height: 100%;
     
 }
 
 body {
+    margin: 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -140,20 +138,20 @@ h2{
     font-size: 26px;
 }
 /*this for iPad*/
-@media (max-width: 768pX ){
+@media (max-width: 375pX ){
     html, body{
-        height: 100%;
-        
+      margin: 50px;
+        width: center;
     }
     
     .cell{
-       width:60px;
-       height: 60px;
+       width:40px;
+       height: 40px;
        font-size: 15px;
 
     }
     footer {
-        width: -20%;
+        width:55vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -162,7 +160,8 @@ h2{
     }
     img{
         width:100px;
-        margin-top: 10%;
+        margin-top:13%;
+        margin-left: -150px
     }
 
     a{
@@ -170,21 +169,24 @@ h2{
         color:rgb(209, 154, 82);
         margin-top: 8%;
         text-shadow: 1px 1px 8px rgb(224, 168, 14);
+        margin-left: -150px
     }
     .message{
         font-size: 17px;
-        /* margin-top: 200px; */
+        margin-top: 40px;
         color: rgb(209, 154, 82);
         /* box-shadow: coral;
          */
          text-shadow: 1px 1px 8px rgb(224, 168, 14);
-         margin-bottom: -30%
+         margin-bottom: -28%;
+         margin-left: -150px
     }
     .copyRight{
         color : rgb(215, 224, 82);
        font-size: 19px;
-       margin-bottom: -25%; 
+       margin-bottom: -21%; 
        text-shadow: 2px 1px 5px rgb(224, 168, 14);
+       margin-left: -155px
     }    
     form{
         margin-top: 20%;
@@ -244,333 +246,6 @@ h2{
     }
     h2{
         font-size: 18px;
-    }
-    
-    
-}
-
-
-/* This for iphone 6/7/8 Plus*/
-@media (max-width: 414pX ){
-    html, body{
-        height: 100%;
-        
-    }
-    
-    .cell{
-       width:60px;
-       height: 60px;
-       font-size: 15px;
-
-    }
-    footer {
-        width: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        align-content: center;
-    }
-    img{
-        width:100px;
-        margin-top: 5%;
-    }
-
-    a{
-        font-size: 18px;
-        color:rgb(209, 154, 82);
-        margin-top: 1%;
-        text-shadow: 1px 1px 8px rgb(224, 168, 14);
-    }
-    .message{
-        font-size: 17px;
-        /* margin-top: 200px; */
-        color: rgb(209, 154, 82);
-        /* box-shadow: coral;
-         */
-         text-shadow: 1px 1px 8px rgb(224, 168, 14);
-         margin-bottom: -20%
-    }
-    .copyRight{
-        color : rgb(215, 224, 82);
-       font-size: 19px;
-       margin-bottom: -18%; 
-       text-shadow: 2px 1px 5px rgb(224, 168, 14);
-    }    
-    form{
-        margin-top: 20%;
-     
-    
-    }
-    label{
-        color:rgb(122, 241, 11);
-        font-size: 15px;
-        text-shadow: 1px 2px 9px rgb(224, 168, 14);
-    }
-    #nameTwo, #nameOne{
-        /* margin: 10%; */
-        margin-bottom:10%;
-        width: 20%;
-    }
-    #butt, #buttR{
-        color: rgb(236, 138, 138);
-        width: 70px;
-     font-size: 20px;
-     margin-left: 25px;
-     box-shadow: 3px -2px 35px -1px rgba(245, 91, 2, 0.87);
-    background-color: rgb(71, 75, 114)
-    
-    
-    
-    }
-    .swal-text{
-        font-size: 33px;
-        color: rgb(171, 58, 206);
-         text-shadow: 1px 1px 7px rgb(157, 29, 216);
-
-    }
-    .button-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    body {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-image: url("https://img.freepik.com/free-vector/console-with-games-lettering-neon-sign-brick-background_1262-11854.jpg?size=338&ext=jpg")
-    
-    }
-    td{
-        color: black;
-        box-sizing: border-box;
-        border: 2px solid blue;
-        background-color:rgb(174, 135, 236);
-        height:150px ;
-        width: 150px;
-        box-shadow: 15px 10px 30px 1px rgba(73, 221, 147, 0.87);
-    }
-    h2{
-        font-size: 16px;
-    }
-    
-    
-}
-
-/* This for iphone 6/7/8/X*/
-@media (max-width: 375pX ){
-    html, body{
-        height: 100%;
-        
-    }
-    
-    .cell{
-       width:60px;
-       height: 60px;
-       font-size: 15px;
-
-    }
-    footer {
-        width: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        align-content: center;
-    }
-    img{
-        width:100px;
-        margin-top: 5%;
-    }
-
-    a{
-        font-size: 18px;
-        color:rgb(209, 154, 82);
-        margin-top: 1%;
-        text-shadow: 1px 1px 8px rgb(224, 168, 14);
-    }
-    .message{
-        font-size: 17px;
-        /* margin-top: 200px; */
-        color: rgb(209, 154, 82);
-        /* box-shadow: coral;
-         */
-         text-shadow: 1px 1px 8px rgb(224, 168, 14);
-         margin-bottom: -20%
-    }
-    .copyRight{
-        color : rgb(215, 224, 82);
-       font-size: 19px;
-       margin-bottom: -18%; 
-       text-shadow: 2px 1px 5px rgb(224, 168, 14);
-    }    
-    form{
-        margin-top: 20%;
-     
-    
-    }
-    label{
-        color:rgb(122, 241, 11);
-        font-size: 15px;
-        text-shadow: 1px 2px 9px rgb(224, 168, 14);
-    }
-    #nameTwo, #nameOne{
-        /* margin: 10%; */
-        margin-bottom:10%;
-        width: 20%;
-    }
-    #butt, #buttR{
-        color: rgb(236, 138, 138);
-        width: 70px;
-     font-size: 20px;
-     margin-left: 25px;
-     box-shadow: 3px -2px 35px -1px rgba(245, 91, 2, 0.87);
-    background-color: rgb(71, 75, 114)
-    
-    
-    
-    }
-    .swal-text{
-        font-size: 33px;
-        color: rgb(171, 58, 206);
-         text-shadow: 1px 1px 7px rgb(157, 29, 216);
-
-    }
-    .button-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    body {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-image: url("https://img.freepik.com/free-vector/console-with-games-lettering-neon-sign-brick-background_1262-11854.jpg?size=338&ext=jpg")
-    
-    }
-    td{
-        color: black;
-        box-sizing: border-box;
-        border: 2px solid blue;
-        background-color:rgb(174, 135, 236);
-        height:150px ;
-        width: 150px;
-        box-shadow: 15px 10px 30px 1px rgba(73, 221, 147, 0.87);
-    }
-    h2{
-        font-size: 16px;
-    }
-    
-    
-}
-/* This for iphone 5*/
-@media (max-width: 320pX ){
-    html, body{
-        height: 100%;
-        
-    }
-    
-    .cell{
-       width:60px;
-       height: 60px;
-       font-size: 15px;
-
-    }
-    footer {
-        width: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        align-content: center;
-    }
-    img{
-        width:100px;
-        margin-top: 10%;
-    }
-
-    a{
-        font-size: 18px;
-        color:rgb(209, 154, 82);
-        margin-top: 8%;
-        text-shadow: 1px 1px 8px rgb(224, 168, 14);
-    }
-    .message{
-        font-size: 17px;
-        /* margin-top: 200px; */
-        color: rgb(209, 154, 82);
-        /* box-shadow: coral;
-         */
-         text-shadow: 1px 1px 8px rgb(224, 168, 14);
-         margin-bottom: -30%
-    }
-    .copyRight{
-        color : rgb(215, 224, 82);
-       font-size: 19px;
-       margin-bottom: -25%; 
-       text-shadow: 2px 1px 5px rgb(224, 168, 14);
-    }    
-    form{
-        margin-top: 20%;
-     
-    
-    }
-    label{
-        color:rgb(122, 241, 11);
-        font-size: 10px;
-        text-shadow: 1px 2px 9px rgb(224, 168, 14);
-    }
-    #nameTwo, #nameOne{
-        /* margin: 10%; */
-        margin-bottom:10%;
-        width: 20%;
-    }
-    #butt, #buttR{
-        color: rgb(236, 138, 138);
-        width: 70px;
-     font-size: 20px;
-     margin-left: 25px;
-     box-shadow: 3px -2px 35px -1px rgba(245, 91, 2, 0.87);
-    background-color: rgb(71, 75, 114)
-    
-    
-    
-    }
-    .swal-text{
-        font-size: 33px;
-        color: rgb(171, 58, 206);
-         text-shadow: 1px 1px 7px rgb(157, 29, 216);
-
-    }
-    .button-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    body {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-image: url("https://img.freepik.com/free-vector/console-with-games-lettering-neon-sign-brick-background_1262-11854.jpg?size=338&ext=jpg")
-    
-    }
-    td{
-        color: black;
-        box-sizing: border-box;
-        border: 2px solid blue;
-        background-color:rgb(174, 135, 236);
-        height:150px ;
-        width: 150px;
-        box-shadow: 15px 10px 30px 1px rgba(73, 221, 147, 0.87);
-    }
-    h2{
-        font-size: 12px;
     }
     
     
