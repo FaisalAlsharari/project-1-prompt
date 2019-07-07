@@ -173,7 +173,7 @@ h2{
     }
     .message{
         font-size: 17px;
-        margin-top: 40px;
+        margin-top: 47px;
         color: rgb(209, 154, 82);
         /* box-shadow: coral;
          */
@@ -184,7 +184,7 @@ h2{
     .copyRight{
         color : rgb(215, 224, 82);
        font-size: 19px;
-       margin-bottom: -21%; 
+       margin-bottom: -24%; 
        text-shadow: 2px 1px 5px rgb(224, 168, 14);
        margin-left: -155px
     }    
