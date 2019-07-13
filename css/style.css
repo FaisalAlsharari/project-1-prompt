@@ -129,7 +129,130 @@ footer {
 h2{
     font-size: 26px;
 }
-/*this for iPad*/
+/* iphone 6/7/8 Plus */
+@media (max-width: 414pX ){
+    html, body{
+        height:670px;
+        padding:0px;
+        margin:0;
+        
+        
+        
+    }
+    
+    .cell{
+       width:40px;
+       height: 40px;
+       font-size: 15px;
+
+    }
+    footer {
+        width:55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+    }
+    img{
+        width:100px;
+        margin-top:10%;
+        margin-left: -15px;
+      
+    }
+
+    a{
+        font-size: 18px;
+        color:rgb(209, 154, 82);
+        margin-top: 8%;
+        text-shadow: 1px 1px 8px rgb(224, 168, 14);
+        margin-left: -15px
+    }
+    .message{
+        font-size: 17px;
+        margin-top: 60px;
+        color: rgb(209, 154, 82);
+        /* box-shadow: coral;
+         */
+         text-shadow: 1px 1px 8px rgb(224, 168, 14);
+         margin-bottom: -29%;
+         margin-left: -15px
+    }
+    .copyRight{
+        color : rgb(215, 224, 82);
+       font-size: 19px;
+       margin-bottom: -27%; 
+       text-shadow: 2px 1px 5px rgb(224, 168, 14);
+       margin-left: -15px
+    }    
+    form{
+        margin-top: 20%;
+     
+    
+    }
+    label{
+        color:rgb(122, 241, 11);
+        font-size: 15px;
+        text-shadow: 1px 2px 9px rgb(224, 168, 14);
+    }
+    #nameTwo, #nameOne{
+        /* margin: 10%; */
+        margin-bottom:10%;
+        width: 20%;
+   
+    }
+    #butt, #buttR{
+        color: rgb(236, 138, 138);
+        width: 70px;
+     font-size: 20px;
+     margin-left: 25px;
+     box-shadow: 3px -2px 35px -1px rgba(245, 91, 2, 0.87);
+    background-color: rgb(71, 75, 114)
+    
+    
+    
+    }
+    .swal-text{
+        font-size: 33px;
+        color: rgb(171, 58, 206);
+         text-shadow: 1px 1px 7px rgb(157, 29, 216);
+
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    body {
+        /* text-align: center; */
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("http://static1.squarespace.com/static/56b10ca7d210b8b461e5ba02/56b10e8e044262bb41be1f4e/59bfbd6764b05fdb97120323/1523627346984/PopArt.gif?format=1500w");
+        background-position: center;
+        background-size: cover;
+        
+    }
+    td{
+        color: black;
+        box-sizing: border-box;
+        border: 2px solid blue;
+        background-color:rgb(174, 135, 236);
+        height:150px ;
+        width: 150px;
+        box-shadow: 15px 10px 30px 1px rgba(73, 221, 147, 0.87);
+    }
+    h2{
+        font-size: 18px;
+    }
+    
+    
+}
+
+
+
+/*iphone 6/7/8*/
 @media (max-width: 375pX ){
     html, body{
         height:670px;
@@ -171,6 +294,127 @@ h2{
     .message{
         font-size: 17px;
         margin-top: 60px;
+        color: rgb(209, 154, 82);
+        /* box-shadow: coral;
+         */
+         text-shadow: 1px 1px 8px rgb(224, 168, 14);
+         margin-bottom: -29%;
+         margin-left: -15px
+    }
+    .copyRight{
+        color : rgb(215, 224, 82);
+       font-size: 19px;
+       margin-bottom: -27%; 
+       text-shadow: 2px 1px 5px rgb(224, 168, 14);
+       margin-left: -15px
+    }    
+    form{
+        margin-top: 20%;
+     
+    
+    }
+    label{
+        color:rgb(122, 241, 11);
+        font-size: 15px;
+        text-shadow: 1px 2px 9px rgb(224, 168, 14);
+    }
+    #nameTwo, #nameOne{
+        /* margin: 10%; */
+        margin-bottom:10%;
+        width: 20%;
+   
+    }
+    #butt, #buttR{
+        color: rgb(236, 138, 138);
+        width: 70px;
+     font-size: 20px;
+     margin-left: 25px;
+     box-shadow: 3px -2px 35px -1px rgba(245, 91, 2, 0.87);
+    background-color: rgb(71, 75, 114)
+    
+    
+    
+    }
+    .swal-text{
+        font-size: 33px;
+        color: rgb(171, 58, 206);
+         text-shadow: 1px 1px 7px rgb(157, 29, 216);
+
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    body {
+        /* text-align: center; */
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("http://static1.squarespace.com/static/56b10ca7d210b8b461e5ba02/56b10e8e044262bb41be1f4e/59bfbd6764b05fdb97120323/1523627346984/PopArt.gif?format=1500w");
+        background-position: center;
+        background-size: cover;
+        
+    }
+    td{
+        color: black;
+        box-sizing: border-box;
+        border: 2px solid blue;
+        background-color:rgb(174, 135, 236);
+        height:150px ;
+        width: 150px;
+        box-shadow: 15px 10px 30px 1px rgba(73, 221, 147, 0.87);
+    }
+    h2{
+        font-size: 18px;
+    }
+    
+    
+}
+
+/*iphone 5/SE*/
+@media (max-width: 320pX ){
+    html, body{
+        height:670px;
+        padding:0px;
+        margin:0;
+        
+        
+        
+    }
+    
+    .cell{
+       width:40px;
+       height: 40px;
+       font-size: 15px;
+
+    }
+    footer {
+       margin-left:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+    }
+    img{
+        width:100px;
+        margin-top:10%;
+        margin-left: -10px;
+      
+    }
+
+    a{
+        font-size: 18px;
+        color:rgb(209, 154, 82);
+        margin-top: 1%;
+        text-shadow: 1px 1px 8px rgb(224, 168, 14);
+        margin-left: -15px
+    }
+    .message{
+        font-size: 17px;
+        margin-top: 6px;
         color: rgb(209, 154, 82);
         /* box-shadow: coral;
          */
