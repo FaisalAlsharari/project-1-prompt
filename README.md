@@ -4,7 +4,7 @@ Tic-tac-toe is a two player game that takes turn marking spaces on a 3 by 3 grid
 
 # User Stories:
 
--[x] As a user, I should be able to start a new tic tac toe game
+[x] As a user, I should be able to start a new tic tac toe game
 -[x] As a user, I should be able to click on a square to add X first and then O, and so on
 -[x] As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next
 -[x] As a user, I should not be able to click the same square twice
