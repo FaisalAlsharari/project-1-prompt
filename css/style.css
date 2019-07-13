@@ -13,7 +13,7 @@ body {
     
 }
 td{
-    color: black;
+    color: rgb(0, 0, 0);
     /* padding: 50px; */
     box-sizing: border-box;
     border: 1px solid blue;
@@ -32,10 +32,6 @@ td{
     color: rgb(236, 138, 138);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    
-
-
-
     
 }
 .cell:hover {
@@ -92,7 +88,7 @@ form{
 .copyRight{
     color : rgb(215, 224, 82);
    font-size: 23px;
-   margin-bottom: -1%; 
+   margin-bottom: -10%; 
    text-shadow: 2px 1px 5px rgb(224, 168, 14);
 
    
@@ -108,7 +104,7 @@ form{
 }
 
 a{
-    font-size: 21px;
+    font-size: 18px;
     color:rgb(209, 154, 82);
     margin-top: -3%;
     text-shadow: 1px 1px 8px rgb(224, 168, 14);
@@ -162,7 +158,8 @@ h2{
     img{
         width:100px;
         margin-top:10%;
-        margin-left: -15px
+        margin-left: -15px;
+      
     }
 
     a{
@@ -179,13 +176,13 @@ h2{
         /* box-shadow: coral;
          */
          text-shadow: 1px 1px 8px rgb(224, 168, 14);
-         margin-bottom: -32%;
+         margin-bottom: -29%;
          margin-left: -15px
     }
     .copyRight{
         color : rgb(215, 224, 82);
        font-size: 19px;
-       margin-bottom: -35%; 
+       margin-bottom: -27%; 
        text-shadow: 2px 1px 5px rgb(224, 168, 14);
        margin-left: -15px
     }    
