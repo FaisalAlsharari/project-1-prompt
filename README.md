@@ -1,5 +1,5 @@
-
-I found it really interesting, fun , and exciting  for my first game.! My fun part started with css and how i can change the size to diffrent phons  then  html, but for the js it was cool but lettl hardthanking about the how to start the game , I also, have my Wireframe and it was so different how I did it at first bbefore even i write a code and now ! Also, I love how website has interesting things such as 
+# Tic-tac-toe
+Tic-tac-toe is a two player game that takes turn marking spaces on a 3 by 3 grid, and the objective of the game is to place three connecting marks in a horizontal, vertical, or diagonal row. Tic-tac-toe is one of the first games to be played by children due to its fast setup and easy engagement. Also, I love how website has interesting things such as 
 #![sweetalert](https://sweetalert.js.org/) , (https://www.cssmatic.com/box-shadow) https://daneden.github.io/animate.css/
 
-If i still have time i would make it better and more esayer 
+If i still have time i would make it better 
