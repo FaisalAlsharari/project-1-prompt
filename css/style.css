@@ -129,7 +129,7 @@ footer {
 h2{
     font-size: 26px;
 }
-/* iphone 6/7/8 Plus */
+/* iphone 6/7/8 Plus*/
 @media (max-width: 414pX ){
     html, body{
         height:670px;
