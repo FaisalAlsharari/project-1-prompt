@@ -10,6 +10,6 @@ Tic-tac-toe is a two player game that takes turn marking spaces on a 3 by 3 grid
 4. As a user, I should not be able to click the same square twice
 5. As a user, I should be shown a message when I win, lose or tie
 6. As a user, I should not be able to continue playing once I win, lose, or tie
-[ x ] As a user, I should be able to play the game again without refreshing the page
--[x] As a user, I should be able to play sounds when clicking sound button
--[x] As a user, I should be able to mute sounds when clicking mute button
+7. As a user, I should be able to play the game again without refreshing the page
+8. As a user, I should be able to play sounds when clicking sound button
+- [x] As a user, I should be able to mute sounds when clicking mute button
