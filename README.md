@@ -14,5 +14,4 @@ Tic-tac-toe is a two player game that takes turn marking spaces on a 3 by 3 grid
 - [x] As a user, I should be able to play the game again without refreshing the page
 
 # To play the game click on this link:
-
- #!https://faisalalsharari.github.io/project-1-prompt/
+* [Play the game here](https://faisalalsharari.github.io/project-1-prompt/) 
