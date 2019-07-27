@@ -17,11 +17,9 @@ Tic-tac-toe is a two player game that takes turn marking spaces on a 3 by 3 grid
 #### Pop-Up , Box-Shadow , Animate Links:
 
 * [sweetalert](https://sweetalert.js.org/)
-* [Box-shadow] (https://www.cssmatic.com/box-shadow)
-* [Animate] (https://daneden.github.io/animate.css/)
+* [Box-shadow](https://www.cssmatic.com/box-shadow)
+* [Animate](https://daneden.github.io/animate.css/)
 
 ##### Background-image Link:
 * [Background-image](http://static1.squarespace.com/static/56b10ca7d210b8b461e5ba02/56b10e8e044262bb41be1f4e/59bfbd6764b05fdb97120323/1523627346984/PopArt.gif?format=1500w) 
-
-#### Background-image:
 <p align="center"><img src="./Background-image/BG.gif" width="350" height="350" ></p>
